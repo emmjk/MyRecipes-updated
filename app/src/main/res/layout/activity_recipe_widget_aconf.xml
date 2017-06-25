@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:numColumns="auto_fit"
+    android:id="@+id/grid_container"
+    android:verticalSpacing="2dp"
+    android:horizontalSpacing="2dp"
+    android:gravity="center"
+    tools:context="com.parot.mtecgwa_jr.myrecipes.RecipeWidget.RecipeWidgetAconfActivity">
+
+</GridView>

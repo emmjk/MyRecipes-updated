@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/ghostwhite"
+    tools:context="com.parot.mtecgwa_jr.myrecipes.Fragments.PlayVideoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/video_container">
+        <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:id="@+id/video"
+            android:layout_margin="0dp"
+            android:visibility="visible">
+        </com.google.android.exoplayer2.ui.SimpleExoPlayerView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:visibility="gone"
+            android:id="@+id/image_when_no_video"
+            android:scaleType="fitCenter"/>
+    </FrameLayout>
+</LinearLayout>

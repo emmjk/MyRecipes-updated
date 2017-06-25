@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="300dp"
+    android:background="@drawable/touch_selector"
+    android:id="@+id/recipe_container">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recipe_image"
+        android:scaleType="centerCrop"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recipe_scim"
+        android:background="@drawable/scrim"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipe_name"
+        android:layout_gravity="bottom"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:padding="16dp"/>
+</FrameLayout>

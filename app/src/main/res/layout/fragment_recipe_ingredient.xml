@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.parot.mtecgwa_jr.myrecipes.Fragments.RecipeIngridientFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycle_ingredients"
+        android:visibility="gone">
+
+    </android.support.v7.widget.RecyclerView>
+    <ProgressBar
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        android:id="@+id/progress_ingredients"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_internet"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:id="@+id/no_connection"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresh"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="102dp"
+        android:visibility="gone"
+        android:id="@+id/refresh_button"/>
+
+</FrameLayout>
